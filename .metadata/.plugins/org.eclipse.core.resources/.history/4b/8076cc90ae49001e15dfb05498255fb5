@@ -1,0 +1,7 @@
+public class interviewpractice{
+	
+	public static void main(String args[]) {
+		int num,factorial=1;
+		Scanner sc= new Scanner(System.in);
+	}
+}

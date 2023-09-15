@@ -1,0 +1,22 @@
+package interviewpractice;
+
+public class Palindromee{
+
+	public static void main(String args[]){
+		int n=241; int m=n; int a=0;
+		while(n>0)
+		{
+			a= a*10+n%10 ; //storing remainder in a
+			n=n/10 ; //storing remainder 
+			
+		}
+		if(a==m)
+		{
+		System.out.print("Yes");
+		}		
+		else
+		System.out.print("No");
+	
+	}
+}
+
